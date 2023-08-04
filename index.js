@@ -19,4 +19,17 @@ customer["favoriteFlavors"] = [
     "strawberry", 
     "matcha"];
 
+delete customer.zipCode;
+delete customer.favoriteStore;
+
+customer.toppings = [
+    "chocolate sprinkles", 
+    "wafer straws", 
+    "gummy bears"];
+customer.futureFlavors = "mango";
+customer.todaysPurchaseCost = 5.32;
+
 console.table(customer);
+
+keys = Object.keys(customer);
+console.log(keys);
